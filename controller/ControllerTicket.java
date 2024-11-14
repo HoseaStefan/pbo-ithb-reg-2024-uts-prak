@@ -16,7 +16,7 @@ public class ControllerTicket {
     public ControllerTicket() {
 
         createDummy();
-        calculateTotalRevenue();
+        // calculateTotalRevenue();
 
     }
 
@@ -33,11 +33,11 @@ public class ControllerTicket {
         onlinePayment.makePayment(tiket1.getPrice());
         tiket1.setOnlinepayment(onlinePayment);
         tiket1.printTicket();
-        tickets1.add(tiket1);
+        // tickets1.add(tiket1);
 
-        Reservation reservation1 = new Reservation("RESERVATION1");
-        reservation1.setTickets(tickets1);
-        reservations.add(reservation1);
+        // Reservation reservation1 = new Reservation("RESERVATION1");
+        // reservation1.setTickets(tickets1);
+        // reservations.add(reservation1);
         
     };
 
